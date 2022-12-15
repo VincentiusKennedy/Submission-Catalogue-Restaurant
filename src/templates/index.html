@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temukan Restoran Terbaik Disini">
+    <meta name="theme-color" content="#1976d2">
+
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <link rel="icon" href="./favicon.png">
+    <link rel="manifest" href="./app.webmanifest">
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+    
+    <title>Catalog Restaurant</title>
+</head>
+<body>
+    <header>
+        <a href="#main" tabindex="1" class="skip-to-main-content-link">Skip to main content</a>
+        <nav class="navbar">
+            <a href="#" tabindex="2" class="nav-branding">Food.Log</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" tabindex="4" class="nav-link">Home</a>
+                <li class="nav-item">
+                    <a href="#/Favorite" tabindex="5" class="nav-link">Favorite</a>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/v_kennedy_w/" tabindex="6" target="_blank">About Us</a>
+                </li>
+            </ul>
+            <button class="hamburger" aria-label="hamburger button" role="button" aria-pressed="true" tabindex="3">☰</button>
+        </nav>
+    </header>
+    <div id="home" class="hero">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/heros/hero-image_2-small.jpg">
+            <img class="hero-img" src="images/heros/hero-image_2-large.jpg" alt="hero image">
+        </picture>
+        <div class="text">
+            <h1>Food.Log, Aplikasi Catalog Restoran</h1>
+            <p id="main">Tempat terbaik untuk mencari restoran terbaik buat kamu</p>
+        </div>
+    </div>
+    <main id="mainContent" tabindex="0"></main>
+    <footer>
+        <p>Carilah Restoran Terbaik Dengan Website Kami.</p>
+        <p>Copyright &copy; 2022 - Food.Log</p>
+    </footer>
+</body>
+</html>
